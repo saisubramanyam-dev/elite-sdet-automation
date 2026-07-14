@@ -70,6 +70,10 @@ services:
       DB_NAME: TravelXDB
       DB_USER: sa
       DB_PASSWORD: ${DB_PASSWORD:-StrongPass@123}
+
+    volumes:
+    - ./reports:/app/reports
+    
     command: >
       bash -c "
       echo 'Running test suite...' &&
@@ -77,4 +81,4 @@ services:
       "
 
 volumes:
-  - ./reports:/app/reports
+  sql_data
