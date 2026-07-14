@@ -450,7 +450,7 @@ Every execution generates structured reports that simplify debugging and executi
 
 The framework executes the complete automated test suite and generates structured execution reports.
 
-![Test Results](assets/images/test-results.png)
+![Test Results](assets/images/test_results.png)
 
 ### Excel Report
 
