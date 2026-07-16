@@ -288,8 +288,8 @@ The REST API follows production-oriented design principles.
 ### Clone Repository
 
 ```bash
-git clone https://github.com/saisubramanyam-dev/elite-sdet-automation.git
-cd elite-sdet-automation
+git clone https://github.com/saisubramanyam-dev/orderflow-sdet-automation.git
+cd orderflow-sdet-automation
 ```
 
 ---
@@ -442,10 +442,21 @@ The pipeline performs the following steps:
 The CI pipeline ensures every code change is automatically validated before being merged.
 
 ---
-
 ## Test Reports
 
 Every execution generates structured reports that simplify debugging and execution analysis.
+
+### Test Execution
+
+The framework executes the complete automated test suite and generates structured execution reports.
+
+![Test Results](assets/images/test_results.png)
+
+### Excel Report
+
+A detailed Excel report is generated after every test execution to provide a structured summary of the test run.
+
+![Excel Report](assets/images/excel-report.png)
 
 Generated artifacts include:
 
